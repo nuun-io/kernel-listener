@@ -1,4 +1,4 @@
-Kernel-listener
+Kernel-listener [![Build status](https://travis-ci.org/nuun-io/kernel-listener.svg?branch=master)](https://travis-ci.org/nuun-io/kernel-listener)
 ===============
 
 KernelListener is a kernel extension allowing plugins to listen kernel events.
