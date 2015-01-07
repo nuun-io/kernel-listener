@@ -12,30 +12,30 @@ public interface KernelListener {
     /**
      * Notifies that the kernel is initializing.
      */
-    public void initializing();
+    public void kernelInitializing();
 
     /**
      * Notifies that the kernel is initialized.
      */
-    public void initialized();
+    public void kernelInitialized();
 
     /**
      * Notifies that the kernel is starting.
      */
-    public void starting();
+    public void kernelStarting();
 
     /**
      * Notifies that the kernel is started.
      */
-    public void started();
+    public void kernelStarted();
 
     /**
      * Notifies that the kernel is stopping.
      */
-    public void stopping();
+    public void kernelStopping();
 
     /**
      * Notifies that the kernel is stopped.
      */
-    public void stopped();
+    public void kernelStopped();
 }

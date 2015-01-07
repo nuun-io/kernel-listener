@@ -26,42 +26,42 @@ public class KernelListenerExtension implements KernelExtension<KernelListener> 
     @Override
     public void initializing(Collection<KernelListener> collection) {
         for (KernelListener kernelListener : collection) {
-            kernelListener.initializing();
+            kernelListener.kernelInitializing();
         }
     }
 
     @Override
     public void initialized(Collection<KernelListener> collection) {
         for (KernelListener kernelListener : collection) {
-            kernelListener.initialized();
+            kernelListener.kernelInitialized();
         }
     }
 
     @Override
     public void starting(Collection<KernelListener> collection) {
         for (KernelListener kernelListener : collection) {
-            kernelListener.starting();
+            kernelListener.kernelStarting();
         }
     }
 
     @Override
     public void started(Collection<KernelListener> collection) {
         for (KernelListener kernelListener : collection) {
-            kernelListener.started();
+            kernelListener.kernelStarted();
         }
     }
 
     @Override
     public void stopping(Collection<KernelListener> collection) {
         for (KernelListener kernelListener : collection) {
-            kernelListener.stopping();
+            kernelListener.kernelStopping();
         }
     }
 
     @Override
     public void stopped(Collection<KernelListener> collection) {
         for (KernelListener kernelListener : collection) {
-            kernelListener.stopped();
+            kernelListener.kernelStopped();
         }
     }
 }

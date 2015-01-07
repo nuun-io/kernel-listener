@@ -30,32 +30,32 @@ public class MyExtendedPlugin extends AbstractPlugin implements KernelListener {
     }
 
     @Override
-    public void initializing() {
+    public void kernelInitializing() {
         ...
     }
 
     @Override
-    public void initialized() {
+    public void kernelInitialized() {
         ...
     }
 
     @Override
-    public void starting() {
+    public void kernelStarting() {
         ...
     }
 
     @Override
-    public void started() {
+    public void kernelStarted() {
         ...
     }
 
     @Override
-    public void stopping() {
+    public void kernelStopping() {
         ...
     }
 
     @Override
-    public void stopped() {
+    public void kernelStopped() {
         ...
     }
 }
