@@ -39,7 +39,7 @@
         <dependency>
             <groupId>io.nuun</groupId>
             <artifactId>kernel-core</artifactId>
-            <version>1.0.M3-SNAPSHOT</version>
+            <version>1.0.M4</version>
         </dependency>
 
         <!-- ========================================================== -->
@@ -49,7 +49,7 @@
         <dependency>
             <groupId>io.nuun</groupId>
             <artifactId>kernel-tests</artifactId>
-            <version>1.0.M3-SNAPSHOT</version>
+            <version>1.0.M4</version>
             <scope>test</scope>
         </dependency>
 
